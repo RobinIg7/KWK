@@ -6,13 +6,14 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Robin's ToDo List-->
         <scene sceneID="AtG-Kk-3va">
             <objects>
-                <tableViewController id="MFE-Km-gaI" sceneMemberID="viewController">
+                <tableViewController id="MFE-Km-gaI" customClass="TableViewContoller" customModule="Robin_Igwe_FP" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Bgt-dp-TXg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -33,12 +34,82 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Robin's ToDo List" id="31b-Ec-yls">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="uBz-in-aJj"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="uBz-in-aJj">
+                            <connections>
+                                <segue destination="FRh-bv-OgI" kind="show" id="oIV-dd-Oun"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AoS-2A-23n" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="924.63768115942037" y="94.419642857142847"/>
+        </scene>
+        <!--Add To Do View Controller-->
+        <scene sceneID="PcU-bV-fID">
+            <objects>
+                <viewController id="FRh-bv-OgI" customClass="AddToDoViewController" customModule="Robin_Igwe_FP" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tiY-0D-eP6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To-Do:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T9l-y5-mmU">
+                                <rect key="frame" x="94" y="166" width="226" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PPF-B1-m1P">
+                                <rect key="frame" x="116" y="241" width="183" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="5yt-os-suU">
+                                <rect key="frame" x="183" y="351" width="49" height="31"/>
+                            </switch>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wB7-ma-aN8">
+                                <rect key="frame" x="168" y="470" width="79" height="30"/>
+                                <state key="normal" title="Add To-Do!"/>
+                                <connections>
+                                    <action selector="addTapped:" destination="FRh-bv-OgI" eventType="touchUpInside" id="ecM-wM-qre"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Important!!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kgk-Ds-OPc">
+                                <rect key="frame" x="128" y="390" width="158" height="20.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.89803921568627454" green="0.083807105102170668" blue="0.0" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="5yt-os-suU" firstAttribute="top" secondItem="PPF-B1-m1P" secondAttribute="bottom" constant="80" id="3pl-73-eb7"/>
+                            <constraint firstItem="PPF-B1-m1P" firstAttribute="top" secondItem="T9l-y5-mmU" secondAttribute="bottom" constant="54.5" id="5y4-fm-l5m"/>
+                            <constraint firstItem="PPF-B1-m1P" firstAttribute="leading" secondItem="1zw-jD-a63" secondAttribute="leading" constant="116" id="9gc-9V-W1R"/>
+                            <constraint firstItem="1zw-jD-a63" firstAttribute="trailing" secondItem="T9l-y5-mmU" secondAttribute="trailing" constant="94" id="EDc-Zx-F0e"/>
+                            <constraint firstItem="Kgk-Ds-OPc" firstAttribute="leading" secondItem="1zw-jD-a63" secondAttribute="leading" constant="128" id="NsQ-Ev-isK"/>
+                            <constraint firstItem="1zw-jD-a63" firstAttribute="trailing" secondItem="Kgk-Ds-OPc" secondAttribute="trailing" constant="128" id="R1k-T6-vC9"/>
+                            <constraint firstItem="T9l-y5-mmU" firstAttribute="leading" secondItem="1zw-jD-a63" secondAttribute="leading" constant="94" id="Rba-iL-a9j"/>
+                            <constraint firstItem="1zw-jD-a63" firstAttribute="trailing" secondItem="5yt-os-suU" secondAttribute="trailing" constant="184" id="RtK-M0-Oe5"/>
+                            <constraint firstItem="wB7-ma-aN8" firstAttribute="leading" secondItem="1zw-jD-a63" secondAttribute="leading" constant="168" id="S8h-eb-Aak"/>
+                            <constraint firstItem="T9l-y5-mmU" firstAttribute="top" secondItem="1zw-jD-a63" secondAttribute="top" constant="78" id="TZ9-ST-cnt"/>
+                            <constraint firstItem="5yt-os-suU" firstAttribute="leading" secondItem="1zw-jD-a63" secondAttribute="leading" constant="183" id="csq-NH-BiA"/>
+                            <constraint firstItem="1zw-jD-a63" firstAttribute="trailing" secondItem="wB7-ma-aN8" secondAttribute="trailing" constant="167" id="cvz-iP-Ogb"/>
+                            <constraint firstItem="Kgk-Ds-OPc" firstAttribute="top" secondItem="5yt-os-suU" secondAttribute="bottom" constant="8" id="kPM-Xt-e5l"/>
+                            <constraint firstItem="wB7-ma-aN8" firstAttribute="top" secondItem="Kgk-Ds-OPc" secondAttribute="bottom" constant="59.5" id="naX-2t-8EO"/>
+                            <constraint firstItem="1zw-jD-a63" firstAttribute="trailing" secondItem="PPF-B1-m1P" secondAttribute="trailing" constant="115" id="tqR-AE-uCx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="1zw-jD-a63"/>
+                    </view>
+                    <connections>
+                        <outlet property="importantSwitch" destination="5yt-os-suU" id="6uQ-5t-8SS"/>
+                        <outlet property="titleTextField" destination="PPF-B1-m1P" id="jsW-4b-DKX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DmQ-TO-VLp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1656.521739130435" y="93.75"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Zte-5O-S4E">

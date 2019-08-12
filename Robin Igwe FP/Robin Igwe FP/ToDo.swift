@@ -13,9 +13,9 @@ class ToDo {//class brackets
     var important = false
     
     
-    init(ToDoname : String, ToDoimportant : Bool) {
-        name = ToDoname
-        important = ToDoimportant
-    }
+//    init(ToDoname : String, ToDoimportant : Bool) {
+//        name = ToDoname
+//        important = ToDoimportant
+//    }
 }//class brackets
 
