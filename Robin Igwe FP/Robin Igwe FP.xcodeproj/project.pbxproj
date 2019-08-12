@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		1857F1012301B3FE005C118C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857F1002301B3FE005C118C /* AppDelegate.swift */; };
-		1857F1032301B3FE005C118C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857F1022301B3FE005C118C /* ViewController.swift */; };
 		1857F1062301B3FE005C118C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1857F1042301B3FE005C118C /* Main.storyboard */; };
 		1857F1092301B3FE005C118C /* Robin_Igwe_FP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1857F1072301B3FE005C118C /* Robin_Igwe_FP.xcdatamodeld */; };
 		1857F10B2301B3FE005C118C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1857F10A2301B3FE005C118C /* Assets.xcassets */; };
 		1857F10E2301B3FE005C118C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1857F10C2301B3FE005C118C /* LaunchScreen.storyboard */; };
+		1857F1182301B829005C118C /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857F1172301B828005C118C /* TableViewController.swift */; };
+		1857F11A2301BA8F005C118C /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857F1192301BA8F005C118C /* ToDo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1857F0FD2301B3FE005C118C /* Robin Igwe FP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Robin Igwe FP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1857F1002301B3FE005C118C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1857F1022301B3FE005C118C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1857F1052301B3FE005C118C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1857F1082301B3FE005C118C /* Robin_Igwe_FP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Robin_Igwe_FP.xcdatamodel; sourceTree = "<group>"; };
 		1857F10A2301B3FE005C118C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1857F10D2301B3FE005C118C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1857F10F2301B3FE005C118C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1857F1172301B828005C118C /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		1857F1192301BA8F005C118C /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +58,9 @@
 		1857F0FF2301B3FE005C118C /* Robin Igwe FP */ = {
 			isa = PBXGroup;
 			children = (
+				1857F1172301B828005C118C /* TableViewController.swift */,
+				1857F1192301BA8F005C118C /* ToDo.swift */,
 				1857F1002301B3FE005C118C /* AppDelegate.swift */,
-				1857F1022301B3FE005C118C /* ViewController.swift */,
 				1857F1042301B3FE005C118C /* Main.storyboard */,
 				1857F10A2301B3FE005C118C /* Assets.xcassets */,
 				1857F10C2301B3FE005C118C /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1857F1032301B3FE005C118C /* ViewController.swift in Sources */,
+				1857F1182301B829005C118C /* TableViewController.swift in Sources */,
 				1857F1092301B3FE005C118C /* Robin_Igwe_FP.xcdatamodeld in Sources */,
 				1857F1012301B3FE005C118C /* AppDelegate.swift in Sources */,
+				1857F11A2301BA8F005C118C /* ToDo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
