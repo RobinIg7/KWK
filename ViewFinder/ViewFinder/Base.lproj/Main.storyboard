@@ -48,11 +48,18 @@
         <!--Add New Photo-->
         <scene sceneID="ja5-3C-UFL">
             <objects>
-                <viewController id="f5o-Ao-PYb" sceneMemberID="viewController">
+                <viewController id="f5o-Ao-PYb" customClass="AddPhotoViewController" customModule="ViewFinder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WJU-PN-msV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CpU-9s-An8">
+                                <rect key="frame" x="128" y="594" width="159" height="30"/>
+                                <state key="normal" title="Take Photo"/>
+                                <connections>
+                                    <action selector="takePhoto:" destination="f5o-Ao-PYb" eventType="touchUpInside" id="B0Q-sE-j0t"/>
+                                </connections>
+                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Butterfly Image" translatesAutoresizingMaskIntoConstraints="NO" id="f07-8Y-rrP">
                                 <rect key="frame" x="87" y="171" width="240" height="300"/>
                             </imageView>
@@ -62,26 +69,42 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CpU-9s-An8">
-                                <rect key="frame" x="190" y="594" width="34" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J0N-6y-yZ2">
+                                <rect key="frame" x="150" y="645" width="115" height="30"/>
+                                <state key="normal" title="Find Photo"/>
+                                <connections>
+                                    <action selector="findPhoto:" destination="f5o-Ao-PYb" eventType="touchUpInside" id="P6J-6Z-MS7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="He9-sO-nsB">
+                                <rect key="frame" x="190" y="699" width="34" height="30"/>
                                 <state key="normal" title="Save"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="J0N-6y-yZ2" firstAttribute="top" secondItem="CpU-9s-An8" secondAttribute="bottom" constant="21" id="6H8-a3-2KP"/>
                             <constraint firstItem="dO2-pw-qwg" firstAttribute="trailing" secondItem="ujV-MD-WHH" secondAttribute="trailing" constant="158" id="CUc-Fj-FtW"/>
                             <constraint firstItem="dO2-pw-qwg" firstAttribute="trailing" secondItem="f07-8Y-rrP" secondAttribute="trailing" constant="87" id="IHE-48-zGK"/>
+                            <constraint firstItem="J0N-6y-yZ2" firstAttribute="leading" secondItem="dO2-pw-qwg" secondAttribute="leading" constant="150" id="Juz-3q-bz9"/>
+                            <constraint firstItem="dO2-pw-qwg" firstAttribute="trailing" secondItem="CpU-9s-An8" secondAttribute="trailing" constant="127" id="Mnv-Vt-Qpx"/>
                             <constraint firstItem="f07-8Y-rrP" firstAttribute="leading" secondItem="dO2-pw-qwg" secondAttribute="leading" constant="87" id="OfB-Al-7fQ"/>
-                            <constraint firstItem="dO2-pw-qwg" firstAttribute="trailing" secondItem="CpU-9s-An8" secondAttribute="trailing" constant="190" id="aKN-lx-v11"/>
-                            <constraint firstItem="CpU-9s-An8" firstAttribute="top" secondItem="ujV-MD-WHH" secondAttribute="bottom" constant="17" id="bwl-yw-Qp1"/>
-                            <constraint firstItem="CpU-9s-An8" firstAttribute="leading" secondItem="dO2-pw-qwg" secondAttribute="leading" constant="190" id="dON-dT-zCI"/>
+                            <constraint firstItem="He9-sO-nsB" firstAttribute="top" secondItem="J0N-6y-yZ2" secondAttribute="bottom" constant="24" id="Srd-eu-A9c"/>
+                            <constraint firstItem="He9-sO-nsB" firstAttribute="leading" secondItem="dO2-pw-qwg" secondAttribute="leading" constant="190" id="Wrm-Dk-UAX"/>
+                            <constraint firstItem="CpU-9s-An8" firstAttribute="top" secondItem="ujV-MD-WHH" secondAttribute="bottom" constant="17" id="Xn6-Te-Rbt"/>
+                            <constraint firstItem="dO2-pw-qwg" firstAttribute="trailing" secondItem="He9-sO-nsB" secondAttribute="trailing" constant="190" id="aqm-Ze-bv8"/>
+                            <constraint firstItem="dO2-pw-qwg" firstAttribute="trailing" secondItem="J0N-6y-yZ2" secondAttribute="trailing" constant="149" id="c4s-2w-4eF"/>
                             <constraint firstItem="ujV-MD-WHH" firstAttribute="leading" secondItem="dO2-pw-qwg" secondAttribute="leading" constant="159" id="kmM-2f-wKv"/>
                             <constraint firstItem="ujV-MD-WHH" firstAttribute="top" secondItem="f07-8Y-rrP" secondAttribute="bottom" constant="76" id="lPZ-fb-C2F"/>
                             <constraint firstItem="f07-8Y-rrP" firstAttribute="top" secondItem="dO2-pw-qwg" secondAttribute="top" constant="83" id="n2V-yk-Fu6"/>
+                            <constraint firstItem="CpU-9s-An8" firstAttribute="leading" secondItem="dO2-pw-qwg" secondAttribute="leading" constant="128" id="prg-5d-v5J"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="dO2-pw-qwg"/>
                     </view>
                     <navigationItem key="navigationItem" title="Add New Photo" id="4pK-7q-hgO"/>
+                    <connections>
+                        <outlet property="newImage" destination="f07-8Y-rrP" id="1il-zk-XZy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nlv-Xl-Azd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
