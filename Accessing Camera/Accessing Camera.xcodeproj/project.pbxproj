@@ -7,33 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1857F1012301B3FE005C118C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857F1002301B3FE005C118C /* AppDelegate.swift */; };
-		1857F1062301B3FE005C118C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1857F1042301B3FE005C118C /* Main.storyboard */; };
-		1857F1092301B3FE005C118C /* Robin_Igwe_FP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1857F1072301B3FE005C118C /* Robin_Igwe_FP.xcdatamodeld */; };
-		1857F10B2301B3FE005C118C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1857F10A2301B3FE005C118C /* Assets.xcassets */; };
-		1857F10E2301B3FE005C118C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1857F10C2301B3FE005C118C /* LaunchScreen.storyboard */; };
-		1857F1182301B829005C118C /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857F1172301B828005C118C /* TableViewController.swift */; };
-		1857F11A2301BA8F005C118C /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857F1192301BA8F005C118C /* ToDo.swift */; };
-		1857F11E2301CD9F005C118C /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857F11D2301CD9F005C118C /* AddToDoViewController.swift */; };
-		18C751D22302F184004C231C /* CompleteToDoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C751D12302F184004C231C /* CompleteToDoController.swift */; };
+		1849E02B230202D20063A830 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1849E02A230202D20063A830 /* AppDelegate.swift */; };
+		1849E02D230202D20063A830 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1849E02C230202D20063A830 /* ViewController.swift */; };
+		1849E030230202D20063A830 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1849E02E230202D20063A830 /* Main.storyboard */; };
+		1849E033230202D20063A830 /* Accessing_Camera.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1849E031230202D20063A830 /* Accessing_Camera.xcdatamodeld */; };
+		1849E035230202D30063A830 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1849E034230202D30063A830 /* Assets.xcassets */; };
+		1849E038230202D30063A830 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1849E036230202D30063A830 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1857F0FD2301B3FE005C118C /* Robin Igwe FP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Robin Igwe FP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1857F1002301B3FE005C118C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1857F1052301B3FE005C118C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1857F1082301B3FE005C118C /* Robin_Igwe_FP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Robin_Igwe_FP.xcdatamodel; sourceTree = "<group>"; };
-		1857F10A2301B3FE005C118C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1857F10D2301B3FE005C118C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1857F10F2301B3FE005C118C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1857F1172301B828005C118C /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		1857F1192301BA8F005C118C /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
-		1857F11D2301CD9F005C118C /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
-		18C751D12302F184004C231C /* CompleteToDoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteToDoController.swift; sourceTree = "<group>"; };
+		1849E027230202D20063A830 /* Accessing Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Accessing Camera.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1849E02A230202D20063A830 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1849E02C230202D20063A830 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1849E02F230202D20063A830 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1849E032230202D20063A830 /* Accessing_Camera.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Accessing_Camera.xcdatamodel; sourceTree = "<group>"; };
+		1849E034230202D30063A830 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1849E037230202D30063A830 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1849E039230202D30063A830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1857F0FA2301B3FE005C118C /* Frameworks */ = {
+		1849E024230202D20063A830 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,75 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1857F0F42301B3FE005C118C = {
+		1849E01E230202D20063A830 = {
 			isa = PBXGroup;
 			children = (
-				1857F0FF2301B3FE005C118C /* Robin Igwe FP */,
-				1857F0FE2301B3FE005C118C /* Products */,
+				1849E029230202D20063A830 /* Accessing Camera */,
+				1849E028230202D20063A830 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1857F0FE2301B3FE005C118C /* Products */ = {
+		1849E028230202D20063A830 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1857F0FD2301B3FE005C118C /* Robin Igwe FP.app */,
+				1849E027230202D20063A830 /* Accessing Camera.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1857F0FF2301B3FE005C118C /* Robin Igwe FP */ = {
+		1849E029230202D20063A830 /* Accessing Camera */ = {
 			isa = PBXGroup;
 			children = (
-				1857F1172301B828005C118C /* TableViewController.swift */,
-				1857F11D2301CD9F005C118C /* AddToDoViewController.swift */,
-				1857F1192301BA8F005C118C /* ToDo.swift */,
-				1857F1002301B3FE005C118C /* AppDelegate.swift */,
-				1857F1042301B3FE005C118C /* Main.storyboard */,
-				18C751D12302F184004C231C /* CompleteToDoController.swift */,
-				1857F10A2301B3FE005C118C /* Assets.xcassets */,
-				1857F10C2301B3FE005C118C /* LaunchScreen.storyboard */,
-				1857F10F2301B3FE005C118C /* Info.plist */,
-				1857F1072301B3FE005C118C /* Robin_Igwe_FP.xcdatamodeld */,
+				1849E02A230202D20063A830 /* AppDelegate.swift */,
+				1849E02C230202D20063A830 /* ViewController.swift */,
+				1849E02E230202D20063A830 /* Main.storyboard */,
+				1849E034230202D30063A830 /* Assets.xcassets */,
+				1849E036230202D30063A830 /* LaunchScreen.storyboard */,
+				1849E039230202D30063A830 /* Info.plist */,
+				1849E031230202D20063A830 /* Accessing_Camera.xcdatamodeld */,
 			);
-			path = "Robin Igwe FP";
+			path = "Accessing Camera";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1857F0FC2301B3FE005C118C /* Robin Igwe FP */ = {
+		1849E026230202D20063A830 /* Accessing Camera */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1857F1122301B3FE005C118C /* Build configuration list for PBXNativeTarget "Robin Igwe FP" */;
+			buildConfigurationList = 1849E03C230202D30063A830 /* Build configuration list for PBXNativeTarget "Accessing Camera" */;
 			buildPhases = (
-				1857F0F92301B3FE005C118C /* Sources */,
-				1857F0FA2301B3FE005C118C /* Frameworks */,
-				1857F0FB2301B3FE005C118C /* Resources */,
+				1849E023230202D20063A830 /* Sources */,
+				1849E024230202D20063A830 /* Frameworks */,
+				1849E025230202D20063A830 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Robin Igwe FP";
-			productName = "Robin Igwe FP";
-			productReference = 1857F0FD2301B3FE005C118C /* Robin Igwe FP.app */;
+			name = "Accessing Camera";
+			productName = "Accessing Camera";
+			productReference = 1849E027230202D20063A830 /* Accessing Camera.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1857F0F52301B3FE005C118C /* Project object */ = {
+		1849E01F230202D20063A830 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = Apple;
 				TargetAttributes = {
-					1857F0FC2301B3FE005C118C = {
+					1849E026230202D20063A830 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 1857F0F82301B3FE005C118C /* Build configuration list for PBXProject "Robin Igwe FP" */;
+			buildConfigurationList = 1849E022230202D20063A830 /* Build configuration list for PBXProject "Accessing Camera" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,58 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 1857F0F42301B3FE005C118C;
-			productRefGroup = 1857F0FE2301B3FE005C118C /* Products */;
+			mainGroup = 1849E01E230202D20063A830;
+			productRefGroup = 1849E028230202D20063A830 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1857F0FC2301B3FE005C118C /* Robin Igwe FP */,
+				1849E026230202D20063A830 /* Accessing Camera */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1857F0FB2301B3FE005C118C /* Resources */ = {
+		1849E025230202D20063A830 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1857F10E2301B3FE005C118C /* LaunchScreen.storyboard in Resources */,
-				1857F10B2301B3FE005C118C /* Assets.xcassets in Resources */,
-				1857F1062301B3FE005C118C /* Main.storyboard in Resources */,
+				1849E038230202D30063A830 /* LaunchScreen.storyboard in Resources */,
+				1849E035230202D30063A830 /* Assets.xcassets in Resources */,
+				1849E030230202D20063A830 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1857F0F92301B3FE005C118C /* Sources */ = {
+		1849E023230202D20063A830 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1857F1182301B829005C118C /* TableViewController.swift in Sources */,
-				1857F1092301B3FE005C118C /* Robin_Igwe_FP.xcdatamodeld in Sources */,
-				1857F11E2301CD9F005C118C /* AddToDoViewController.swift in Sources */,
-				1857F1012301B3FE005C118C /* AppDelegate.swift in Sources */,
-				18C751D22302F184004C231C /* CompleteToDoController.swift in Sources */,
-				1857F11A2301BA8F005C118C /* ToDo.swift in Sources */,
+				1849E02D230202D20063A830 /* ViewController.swift in Sources */,
+				1849E033230202D20063A830 /* Accessing_Camera.xcdatamodeld in Sources */,
+				1849E02B230202D20063A830 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1857F1042301B3FE005C118C /* Main.storyboard */ = {
+		1849E02E230202D20063A830 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1857F1052301B3FE005C118C /* Base */,
+				1849E02F230202D20063A830 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		1857F10C2301B3FE005C118C /* LaunchScreen.storyboard */ = {
+		1849E036230202D30063A830 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1857F10D2301B3FE005C118C /* Base */,
+				1849E037230202D30063A830 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -178,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		1857F1102301B3FE005C118C /* Debug */ = {
+		1849E03A230202D30063A830 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -239,7 +227,7 @@
 			};
 			name = Debug;
 		};
-		1857F1112301B3FE005C118C /* Release */ = {
+		1849E03B230202D30063A830 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -294,34 +282,34 @@
 			};
 			name = Release;
 		};
-		1857F1132301B3FE005C118C /* Debug */ = {
+		1849E03D230202D30063A830 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Robin Igwe FP/Info.plist";
+				INFOPLIST_FILE = "Accessing Camera/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Robin.Robin-Igwe-FP";
+				PRODUCT_BUNDLE_IDENTIFIER = "Robin.Accessing-Camera";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		1857F1142301B3FE005C118C /* Release */ = {
+		1849E03E230202D30063A830 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Robin Igwe FP/Info.plist";
+				INFOPLIST_FILE = "Accessing Camera/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Robin.Robin-Igwe-FP";
+				PRODUCT_BUNDLE_IDENTIFIER = "Robin.Accessing-Camera";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -331,20 +319,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1857F0F82301B3FE005C118C /* Build configuration list for PBXProject "Robin Igwe FP" */ = {
+		1849E022230202D20063A830 /* Build configuration list for PBXProject "Accessing Camera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1857F1102301B3FE005C118C /* Debug */,
-				1857F1112301B3FE005C118C /* Release */,
+				1849E03A230202D30063A830 /* Debug */,
+				1849E03B230202D30063A830 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1857F1122301B3FE005C118C /* Build configuration list for PBXNativeTarget "Robin Igwe FP" */ = {
+		1849E03C230202D30063A830 /* Build configuration list for PBXNativeTarget "Accessing Camera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1857F1132301B3FE005C118C /* Debug */,
-				1857F1142301B3FE005C118C /* Release */,
+				1849E03D230202D30063A830 /* Debug */,
+				1849E03E230202D30063A830 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -352,17 +340,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		1857F1072301B3FE005C118C /* Robin_Igwe_FP.xcdatamodeld */ = {
+		1849E031230202D20063A830 /* Accessing_Camera.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				1857F1082301B3FE005C118C /* Robin_Igwe_FP.xcdatamodel */,
+				1849E032230202D20063A830 /* Accessing_Camera.xcdatamodel */,
 			);
-			currentVersion = 1857F1082301B3FE005C118C /* Robin_Igwe_FP.xcdatamodel */;
-			path = Robin_Igwe_FP.xcdatamodeld;
+			currentVersion = 1849E032230202D20063A830 /* Accessing_Camera.xcdatamodel */;
+			path = Accessing_Camera.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 1857F0F52301B3FE005C118C /* Project object */;
+	rootObject = 1849E01F230202D20063A830 /* Project object */;
 }

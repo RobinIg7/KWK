@@ -40,6 +40,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <segue destination="gj9-W1-Joa" kind="show" identifier="moveToComplete" id="JGt-0b-lX4"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AoS-2A-23n" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -110,6 +113,41 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DmQ-TO-VLp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1656.521739130435" y="93.75"/>
+        </scene>
+        <!--Complete To Do Controller-->
+        <scene sceneID="R1f-L0-MAt">
+            <objects>
+                <viewController id="gj9-W1-Joa" customClass="CompleteToDoController" customModule="Robin_Igwe_FP" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BcS-fB-obZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N4C-xF-3jN">
+                                <rect key="frame" x="149" y="366" width="116" height="101"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="completeTapped:" destination="gj9-W1-Joa" eventType="touchUpInside" id="ZAs-yo-6So"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="muq-5h-h3d">
+                                <rect key="frame" x="51" y="145" width="172" height="114"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="1bg-EH-5ym"/>
+                    </view>
+                    <connections>
+                        <outlet property="titleLabel" destination="muq-5h-h3d" id="ETX-9D-rDl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bzk-Wg-OhM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="924.63768115942037" y="800.89285714285711"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Zte-5O-S4E">

@@ -7,33 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1857F1012301B3FE005C118C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857F1002301B3FE005C118C /* AppDelegate.swift */; };
-		1857F1062301B3FE005C118C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1857F1042301B3FE005C118C /* Main.storyboard */; };
-		1857F1092301B3FE005C118C /* Robin_Igwe_FP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1857F1072301B3FE005C118C /* Robin_Igwe_FP.xcdatamodeld */; };
-		1857F10B2301B3FE005C118C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1857F10A2301B3FE005C118C /* Assets.xcassets */; };
-		1857F10E2301B3FE005C118C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1857F10C2301B3FE005C118C /* LaunchScreen.storyboard */; };
-		1857F1182301B829005C118C /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857F1172301B828005C118C /* TableViewController.swift */; };
-		1857F11A2301BA8F005C118C /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857F1192301BA8F005C118C /* ToDo.swift */; };
-		1857F11E2301CD9F005C118C /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857F11D2301CD9F005C118C /* AddToDoViewController.swift */; };
-		18C751D22302F184004C231C /* CompleteToDoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C751D12302F184004C231C /* CompleteToDoController.swift */; };
+		188902B12303075900A0D933 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188902B02303075900A0D933 /* AppDelegate.swift */; };
+		188902B62303075900A0D933 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188902B42303075900A0D933 /* Main.storyboard */; };
+		188902B92303075900A0D933 /* ViewFinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 188902B72303075900A0D933 /* ViewFinder.xcdatamodeld */; };
+		188902BB2303075B00A0D933 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188902BA2303075B00A0D933 /* Assets.xcassets */; };
+		188902BE2303075B00A0D933 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188902BC2303075B00A0D933 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1857F0FD2301B3FE005C118C /* Robin Igwe FP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Robin Igwe FP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1857F1002301B3FE005C118C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1857F1052301B3FE005C118C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1857F1082301B3FE005C118C /* Robin_Igwe_FP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Robin_Igwe_FP.xcdatamodel; sourceTree = "<group>"; };
-		1857F10A2301B3FE005C118C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1857F10D2301B3FE005C118C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1857F10F2301B3FE005C118C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1857F1172301B828005C118C /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		1857F1192301BA8F005C118C /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
-		1857F11D2301CD9F005C118C /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
-		18C751D12302F184004C231C /* CompleteToDoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteToDoController.swift; sourceTree = "<group>"; };
+		188902AD2303075900A0D933 /* ViewFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		188902B02303075900A0D933 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		188902B52303075900A0D933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		188902B82303075900A0D933 /* ViewFinder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ViewFinder.xcdatamodel; sourceTree = "<group>"; };
+		188902BA2303075B00A0D933 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		188902BD2303075B00A0D933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		188902BF2303075B00A0D933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1857F0FA2301B3FE005C118C /* Frameworks */ = {
+		188902AA2303075900A0D933 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,75 +35,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1857F0F42301B3FE005C118C = {
+		188902A42303075900A0D933 = {
 			isa = PBXGroup;
 			children = (
-				1857F0FF2301B3FE005C118C /* Robin Igwe FP */,
-				1857F0FE2301B3FE005C118C /* Products */,
+				188902AF2303075900A0D933 /* ViewFinder */,
+				188902AE2303075900A0D933 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1857F0FE2301B3FE005C118C /* Products */ = {
+		188902AE2303075900A0D933 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1857F0FD2301B3FE005C118C /* Robin Igwe FP.app */,
+				188902AD2303075900A0D933 /* ViewFinder.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1857F0FF2301B3FE005C118C /* Robin Igwe FP */ = {
+		188902AF2303075900A0D933 /* ViewFinder */ = {
 			isa = PBXGroup;
 			children = (
-				1857F1172301B828005C118C /* TableViewController.swift */,
-				1857F11D2301CD9F005C118C /* AddToDoViewController.swift */,
-				1857F1192301BA8F005C118C /* ToDo.swift */,
-				1857F1002301B3FE005C118C /* AppDelegate.swift */,
-				1857F1042301B3FE005C118C /* Main.storyboard */,
-				18C751D12302F184004C231C /* CompleteToDoController.swift */,
-				1857F10A2301B3FE005C118C /* Assets.xcassets */,
-				1857F10C2301B3FE005C118C /* LaunchScreen.storyboard */,
-				1857F10F2301B3FE005C118C /* Info.plist */,
-				1857F1072301B3FE005C118C /* Robin_Igwe_FP.xcdatamodeld */,
+				188902B02303075900A0D933 /* AppDelegate.swift */,
+				188902B42303075900A0D933 /* Main.storyboard */,
+				188902BA2303075B00A0D933 /* Assets.xcassets */,
+				188902BC2303075B00A0D933 /* LaunchScreen.storyboard */,
+				188902BF2303075B00A0D933 /* Info.plist */,
+				188902B72303075900A0D933 /* ViewFinder.xcdatamodeld */,
 			);
-			path = "Robin Igwe FP";
+			path = ViewFinder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1857F0FC2301B3FE005C118C /* Robin Igwe FP */ = {
+		188902AC2303075900A0D933 /* ViewFinder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1857F1122301B3FE005C118C /* Build configuration list for PBXNativeTarget "Robin Igwe FP" */;
+			buildConfigurationList = 188902C22303075B00A0D933 /* Build configuration list for PBXNativeTarget "ViewFinder" */;
 			buildPhases = (
-				1857F0F92301B3FE005C118C /* Sources */,
-				1857F0FA2301B3FE005C118C /* Frameworks */,
-				1857F0FB2301B3FE005C118C /* Resources */,
+				188902A92303075900A0D933 /* Sources */,
+				188902AA2303075900A0D933 /* Frameworks */,
+				188902AB2303075900A0D933 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Robin Igwe FP";
-			productName = "Robin Igwe FP";
-			productReference = 1857F0FD2301B3FE005C118C /* Robin Igwe FP.app */;
+			name = ViewFinder;
+			productName = ViewFinder;
+			productReference = 188902AD2303075900A0D933 /* ViewFinder.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1857F0F52301B3FE005C118C /* Project object */ = {
+		188902A52303075900A0D933 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = Apple;
 				TargetAttributes = {
-					1857F0FC2301B3FE005C118C = {
+					188902AC2303075900A0D933 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 1857F0F82301B3FE005C118C /* Build configuration list for PBXProject "Robin Igwe FP" */;
+			buildConfigurationList = 188902A82303075900A0D933 /* Build configuration list for PBXProject "ViewFinder" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,58 +107,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 1857F0F42301B3FE005C118C;
-			productRefGroup = 1857F0FE2301B3FE005C118C /* Products */;
+			mainGroup = 188902A42303075900A0D933;
+			productRefGroup = 188902AE2303075900A0D933 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1857F0FC2301B3FE005C118C /* Robin Igwe FP */,
+				188902AC2303075900A0D933 /* ViewFinder */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1857F0FB2301B3FE005C118C /* Resources */ = {
+		188902AB2303075900A0D933 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1857F10E2301B3FE005C118C /* LaunchScreen.storyboard in Resources */,
-				1857F10B2301B3FE005C118C /* Assets.xcassets in Resources */,
-				1857F1062301B3FE005C118C /* Main.storyboard in Resources */,
+				188902BE2303075B00A0D933 /* LaunchScreen.storyboard in Resources */,
+				188902BB2303075B00A0D933 /* Assets.xcassets in Resources */,
+				188902B62303075900A0D933 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1857F0F92301B3FE005C118C /* Sources */ = {
+		188902A92303075900A0D933 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1857F1182301B829005C118C /* TableViewController.swift in Sources */,
-				1857F1092301B3FE005C118C /* Robin_Igwe_FP.xcdatamodeld in Sources */,
-				1857F11E2301CD9F005C118C /* AddToDoViewController.swift in Sources */,
-				1857F1012301B3FE005C118C /* AppDelegate.swift in Sources */,
-				18C751D22302F184004C231C /* CompleteToDoController.swift in Sources */,
-				1857F11A2301BA8F005C118C /* ToDo.swift in Sources */,
+				188902B92303075900A0D933 /* ViewFinder.xcdatamodeld in Sources */,
+				188902B12303075900A0D933 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1857F1042301B3FE005C118C /* Main.storyboard */ = {
+		188902B42303075900A0D933 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1857F1052301B3FE005C118C /* Base */,
+				188902B52303075900A0D933 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		1857F10C2301B3FE005C118C /* LaunchScreen.storyboard */ = {
+		188902BC2303075B00A0D933 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1857F10D2301B3FE005C118C /* Base */,
+				188902BD2303075B00A0D933 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -178,7 +162,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		1857F1102301B3FE005C118C /* Debug */ = {
+		188902C02303075B00A0D933 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -239,7 +223,7 @@
 			};
 			name = Debug;
 		};
-		1857F1112301B3FE005C118C /* Release */ = {
+		188902C12303075B00A0D933 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -294,34 +278,34 @@
 			};
 			name = Release;
 		};
-		1857F1132301B3FE005C118C /* Debug */ = {
+		188902C32303075B00A0D933 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Robin Igwe FP/Info.plist";
+				INFOPLIST_FILE = ViewFinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Robin.Robin-Igwe-FP";
+				PRODUCT_BUNDLE_IDENTIFIER = Robin.ViewFinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		1857F1142301B3FE005C118C /* Release */ = {
+		188902C42303075B00A0D933 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Robin Igwe FP/Info.plist";
+				INFOPLIST_FILE = ViewFinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Robin.Robin-Igwe-FP";
+				PRODUCT_BUNDLE_IDENTIFIER = Robin.ViewFinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -331,20 +315,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1857F0F82301B3FE005C118C /* Build configuration list for PBXProject "Robin Igwe FP" */ = {
+		188902A82303075900A0D933 /* Build configuration list for PBXProject "ViewFinder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1857F1102301B3FE005C118C /* Debug */,
-				1857F1112301B3FE005C118C /* Release */,
+				188902C02303075B00A0D933 /* Debug */,
+				188902C12303075B00A0D933 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1857F1122301B3FE005C118C /* Build configuration list for PBXNativeTarget "Robin Igwe FP" */ = {
+		188902C22303075B00A0D933 /* Build configuration list for PBXNativeTarget "ViewFinder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1857F1132301B3FE005C118C /* Debug */,
-				1857F1142301B3FE005C118C /* Release */,
+				188902C32303075B00A0D933 /* Debug */,
+				188902C42303075B00A0D933 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -352,17 +336,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		1857F1072301B3FE005C118C /* Robin_Igwe_FP.xcdatamodeld */ = {
+		188902B72303075900A0D933 /* ViewFinder.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				1857F1082301B3FE005C118C /* Robin_Igwe_FP.xcdatamodel */,
+				188902B82303075900A0D933 /* ViewFinder.xcdatamodel */,
 			);
-			currentVersion = 1857F1082301B3FE005C118C /* Robin_Igwe_FP.xcdatamodel */;
-			path = Robin_Igwe_FP.xcdatamodeld;
+			currentVersion = 188902B82303075900A0D933 /* ViewFinder.xcdatamodel */;
+			path = ViewFinder.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 1857F0F52301B3FE005C118C /* Project object */;
+	rootObject = 188902A52303075900A0D933 /* Project object */;
 }
